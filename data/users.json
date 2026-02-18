@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name":"Joe",
+        "lastname":"Bloggs",
+        "skills":["skill1", "skill2"],
+        "isAdmin": true,
+        "location":"",
+        "createdAt":"2025-01-01"
+    },
+
+     {
+        "id": 2,
+        "name":"Jane",
+        "lastname":"Doe",
+        "skills":["skill1", "skill2"],
+        "isAdmin": true,
+        "location":"",
+         "createdAt":"2025-01-01"
+    },
+
+     {
+        "id": 3,
+        "name":"John",
+        "lastname":"Smith",
+        "skills":["skill1", "skill2"],
+        "isAdmin": false,
+        "location":"",
+         "createdAt":"2025-01-01"
+    }
+]

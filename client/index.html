@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+      User Weather App
+    </div>
+
+    <!-- FORM SECTION -->
+    <div class="form-section">
+      <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="city" placeholder="City" required />
+        <button type="submit">Add User</button>
+      </form>
+    </div>
+
+    <!-- USERS SECTION -->
+    <div class="users-section">
+      <h2>Users</h2>
+      <div id="usersContainer" class="users-container"></div>
+    </div>
+
+    <!-- DETAILS SECTION -->
+    <div class="details-section">
+      <h2>User Details</h2>
+      <div id="detailsContainer" class="details-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
